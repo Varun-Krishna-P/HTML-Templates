@@ -1,0 +1,28 @@
+.teal-hover li a:hover {
+	background-color: #009688;
+	color: #fff;
+}
+/*https://css-tricks.com/snippets/css/drop-caps/*/
+p.drop-caps:first-child:first-letter {
+  color: #009688;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+/*p.drop-caps:first-child:first-letter {
+  color:  #009688; 
+  font-family: Georgia;
+  initial-letter: 2;
+  font-size: 75px;
+  line-height: 60px;
+}*/
+
+ul.w3-pagination li a:hover{
+	background-color: #009688;
+	color: #fff;
+}

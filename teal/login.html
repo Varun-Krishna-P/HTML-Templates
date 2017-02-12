@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Teal Template</title>
+	<link rel="stylesheet" type="text/css" href="../lib/css/w3.css">
+    <link rel="stylesheet" type="text/css" href="../lib/css/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="../lib/css/teal.css">
+    <link rel="stylesheet" type="text/css" href="../lib/css/template.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<script type="text/javascript" src="../lib/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src='../lib/js/teal.js'></script>
+	<script type="text/javascript" src='../lib/js/template.js'></script>
+    <script type="text/javascript" src="../lib/js/sweetalert-dev.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+    		$("#modal1").show();
+    	});
+    </script>
+</head>
+<body>
+<div id="modal1" class="w3-modal">
+  <div class="w3-modal-content">
+
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('modal1').style.display='none'" 
+      class="w3-closebtn">&times;</span>
+      <h2>Login</h2>
+    </header>
+
+    <div class="w3-container">
+      <form class="w3-container">
+        <div class="w3-section">
+          <label class="w3-label w3-text-teal"><b>Username</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+          <label class="w3-label w3-text-teal"><b>Password</b></label>
+          <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+          <button class="w3-btn-block w3-teal w3-section w3-padding" type="submit">Login</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+        </div>
+      </form>
+    </div>
+
+    <footer class="w3-container w3-teal no-padding">
+       <div class="w3-container w3-border-top w3-padding-16">
+        <button onclick="document.getElementById('modal1').style.display='none'" type="button" class="w3-btn w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+      </div>
+    </footer>
+
+  </div>
+</div>
+	<ul class="w3-navbar w3-border w3-light-grey teal-hover">
+		<li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+	    	<a href="javascript:void(0);"><i class="fa fa-bars" aria-hidden="true"></i></a>
+	  	</li>
+	    <li><a class="w3-teal" href="index.html">Home</a></li>
+	    <li class="w3-hide-small"><a href="#">Link 1</a></li>
+	    <li class="w3-hide-small"><a href="#">Link 2</a></li>
+	    <li class="w3-hide-small"><a href="#">Link 3</a></li>
+	     <li class="w3-dropdown-click w3-hide-small">
+		  <a href="javascript:void(0)">Dropdown <i class="fa fa-caret-down"></i></a>
+		  <div id="sub-menu" class="w3-dropdown-content w3-white w3-card-4">
+		    <a href="#">Link 1</a>
+		    <a href="#">Link 2</a>
+		    <a href="#">Link 3</a>
+		  </div>
+		</li>
+		<li class="w3-right">
+			<a href="login.html">Login</a>
+		</li>
+  	</ul>
+  	<div id="bars" class="w3-hide w3-hide-large w3-hide-medium">
+	  <ul class="w3-navbar w3-left-align w3-large w3-light-grey teal-hover">
+	    <li><a href="#">Link 1</a></li>
+	    <li><a href="#">Link 2</a></li>
+	    <li><a href="#">Link 3</a></li>
+	    <li class="">
+		  <a href="javascript:void(0)">Dropdown</a>
+		  <div class="w3-center">
+		    <a href="#">Link 1</a>
+		    <a href="#">Link 2</a>
+		    <a href="#">Link 3</a>
+		  </div>
+		</li>
+	  </ul>
+	</div>
+	<div class="w3-container">
+		
+	</div>
+
+</body>
+</html>    
