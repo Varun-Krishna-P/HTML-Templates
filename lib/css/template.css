@@ -49,3 +49,12 @@ div span.tags{
 	font-size: 20px;
 	font-weight: 400;
 }
+.author-details{
+	font-family: Georgia;
+	font-size: 16px;
+}
+.author-details span:nth-last-child(1){
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: Georgia;
+}
