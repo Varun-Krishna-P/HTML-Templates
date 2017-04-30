@@ -58,3 +58,8 @@ div span.tags{
 	font-weight: 600;
 	font-family: Georgia;
 }
+
+.input-label{
+	font-family: georgia;
+	font-weight: 300;
+}
